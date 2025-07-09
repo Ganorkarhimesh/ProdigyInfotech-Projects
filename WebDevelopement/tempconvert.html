@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="tempconvert.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Temperature Converter</h1>
+
+        <label for="TempInput">Enter Temperature:</label>
+        <input type="number" id="tempInput" placeholder="e.g.100" required>
+
+        <label for="unitSelect">Convert:</label>
+            <select id="unitSelect">
+                <option value="c-to-k">Celsius => Kelvin</option>
+                <option value="k-to-c">Kelvin => Celsius</option>
+            </select>
+
+            <div id="result">Result will show here</div>
+    </div>
+    <script src="tempconvert.js"></script>
+</body>
+</html>
