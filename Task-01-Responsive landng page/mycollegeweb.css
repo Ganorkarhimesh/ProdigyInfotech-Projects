@@ -1,0 +1,150 @@
+.html,
+        body {
+            background-image: url(./assets/rco.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        h1 {
+            text-align: center;
+            font-style: oblique;
+            float: left;
+            font-size: 38px;
+            border: 3px linear;
+            color: brown;
+            background-color: #fff;
+        }
+        h1 a:hover {
+            color: black;
+        }
+        h2:hover {
+            color: black;
+        }
+        h1 a {
+            color: black;
+        }
+        h1 a {
+            color: black;
+        }
+        h2 a {
+            color: black;
+        }
+        a:hover {
+            color: black;
+        }
+        .label {
+            font-size: 55px;
+        }
+
+        img {
+            height: 90px;
+            width: 88px;
+            float: left;
+            margin-top: 3px;
+            right: 31px;
+        }
+        .button{
+            height: 150px;
+            width: 150px;
+        }
+
+        .select {
+            width: 100%;
+            height: 100%;
+        }
+        .navbar{
+            border-radius: 30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li {
+            justify-content: space-between;
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+            color: red;
+            font-size: larger;
+        }
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+
+        .clock {
+            width: 450px;
+            background-color: black;
+            color: white;
+            font-family: 'Quicksand', 'Helvetica', Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            float: center;
+        }
+        .inside {
+            width: 100%;
+            background-color: black;
+            padding: 35px 0;
+            text-align: center;
+        }
+
+        .days-of-week {
+            color: #ffffff33;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1rem;
+        }
+
+        .active {
+            color: #ffffff;
+        }
+
+        .time {
+            font-size: 2.5rem;
+            margin-top: 10px;
+        }
+
+        #ampm {
+            font-size: 1.5rem;
+        }
+
+        .date {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 35px;
+        }
+
+        .icon img {
+            width: 30px;
+            height: 30px;
+        }
+        p {
+            font-size: larger;
+        }
+        p:hover  {
+            color: brown;
+            font-size: 28px;
+        }
+        ul li a {
+            color: black;
+            font-size: larger;
+        }   
+        a:hover {
+        color: red;
+        box-sizing: border-box;
+        inline-size: none;
+        }
